@@ -1,0 +1,198 @@
+/* faf9f9
+add2c9
+5ea3a3
+488b8f */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fira Sans', 'Merriweather Sans', sans-serif;
+  font-size: 17px;
+  background-color: #add2c9;
+  color: #000000;
+}
+
+header {
+  background-color: #5ea3a3;
+  margin: 10 10px 0 10px;
+  min-height: 90px;
+  margin: 0 auto;
+}
+
+#branding {
+  display: inline;
+  float: left;
+  padding: 20px;
+  font-size: 32px;
+}
+
+.special {
+  font-weight: bold;
+}
+
+header img {
+  margin-left: 24px;
+}
+
+header p {
+  float: right;
+  padding: 20px;
+  margin-right: 24px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Main Session */
+.banner {
+  background-color: #add2c9;
+  margin: 0 auto;
+}
+
+.banner img {
+  margin: 32px 24px;
+  padding: 20px;
+  width: 60%;
+}
+
+.banner .content {
+  padding: 20px;
+  float: right;
+  margin: 0 auto;
+  clear: right;
+}
+
+.content h3 {
+  margin: 15px;
+  font-family: 'Merriweather Sans';
+}
+
+.content p {
+  font-size: 14px;
+  margin: 15px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  margin: 15px;
+}
+
+.lead-content {
+  background: #fff;
+  margin-top: 0;
+}
+
+.main-info img {
+  margin: 0 24px;
+  padding: 20px;
+  width: 60%;
+}
+
+.main-info h2 {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.main-info h3 {
+  margin-left: 24px;
+}
+
+.main-info .practice {
+  margin-top: 24px;
+}
+
+.main-info .osman {
+  margin-top: 32px;
+}
+
+.main-info .exhibit-des {
+  margin-top: 8px;
+  padding: 32px;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+}
+
+.news .side-info {
+  text-align: center;
+}
+
+.news {
+  margin: 25px;
+}
+
+.news img {
+  width: 35%;
+}
+
+.side-info {
+  float: right;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.courses h3 {
+  margin: 32px auto;
+  text-align: center;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+
+.courses img {
+  width: 100%;
+  margin: auto 72px;
+  padding-right: 30px;
+}
+
+.caption {
+  display: block;
+}
+
+.caption p {
+  margin: auto 72px;
+}
+
+video {
+  width: 60%;
+  margin: 24px;
+}
+
+footer {
+  background-color: #5ea3a3;
+  min-height: 90px;
+}
+
+footer .colmar {
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+footer .terms {
+  float: right;
+  margin-right: 24px;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 768px){
+  header #branding, header p, .news img, .side-info,.colmar, .terms{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding: 20px 0;
+  }
+
+}
